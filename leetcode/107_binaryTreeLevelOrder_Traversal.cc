@@ -1,9 +1,9 @@
 /*
  * @Description: 107 二叉树从底部到顶部的遍历，迭代算法
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-07-30 15:36:06
  * @LastEditTime: 2020-08-14 09:19:53
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 
 #include<iostream>

@@ -1,9 +1,9 @@
 /*
  * @Description: 平衡二叉树判断
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-08-17 16:24:28
  * @LastEditTime: 2020-08-19 09:06:11
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */
 /*
 Given a binary tree, determine if it is height-balanced.

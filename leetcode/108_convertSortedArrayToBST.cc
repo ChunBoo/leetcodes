@@ -1,9 +1,9 @@
 /*
  * @Description: 由有序数组生成二叉树
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-08-17 15:55:23
  * @LastEditTime: 2020-08-20 13:29:05
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
 
 
 Given an array where elements are sorted in ascending order, convert it to a height balanced BST.

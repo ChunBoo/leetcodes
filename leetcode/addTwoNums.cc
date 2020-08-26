@@ -1,9 +1,9 @@
 /*
  * @Description: 
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-06-19 09:46:10
  * @LastEditTime: 2020-06-19 13:07:37
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 /**
  * Definition for singly-linked list.

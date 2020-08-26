@@ -1,9 +1,9 @@
 /*
  * @Description: 二叉树最大深度
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-07-21 17:23:06
  * @LastEditTime: 2020-07-22 10:20:24
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 
 #include<iostream>

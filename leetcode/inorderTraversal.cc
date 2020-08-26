@@ -1,9 +1,9 @@
 /*
  * @Description: 中序遍历二叉树
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-08-20 14:04:39
  * @LastEditTime: 2020-08-20 15:29:30
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */
 
 #include<iostream>

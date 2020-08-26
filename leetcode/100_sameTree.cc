@@ -1,9 +1,9 @@
 /*
  * @Description: 判断两个二叉树是否相同
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-07-14 14:08:21
  * @LastEditTime: 2020-07-15 17:09:34
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 #include<iostream>
 using namespace std;

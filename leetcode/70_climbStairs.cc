@@ -1,9 +1,9 @@
 /*
  * @Description: 动态规划算法的应用
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-07-06 10:08:01
  * @LastEditTime: 2020-07-07 08:58:30
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 
 #include<iostream>

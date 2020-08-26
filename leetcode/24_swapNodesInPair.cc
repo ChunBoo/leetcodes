@@ -1,9 +1,9 @@
 /*
  @Description: 
- @Author: chunbo liu
+ @Author: chunboo liu
  @Date: 2020-08-17 17:23:23
  * @LastEditTime: 2020-08-24 09:57:18
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
 */
 /*
 Given a linked list, swap every two adjacent nodes and return its head.

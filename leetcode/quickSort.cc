@@ -1,9 +1,9 @@
 /*
  * @Description: 快速排序算法
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-08-03 17:10:58
  * @LastEditTime: 2020-08-03 17:26:53
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */
 
 #include<iostream>

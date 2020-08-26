@@ -1,9 +1,9 @@
 /*
  * @Description: 
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-06-23 09:45:22
  * @LastEditTime: 2020-06-23 09:58:28
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 
 #include<iostream>

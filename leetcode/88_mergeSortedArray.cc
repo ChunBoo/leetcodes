@@ -1,9 +1,9 @@
 /*
  * @Description: merge two sorted array
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-07-13 14:49:58
  * @LastEditTime: 2020-07-14 13:50:33
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 
 #include<iostream>

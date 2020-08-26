@@ -1,9 +1,9 @@
 /*
  * @Description: 
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-07-07 17:04:55
  * @LastEditTime: 2020-07-07 17:05:02
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */ 
 /*
 Given a sorted linked list, delete all duplicates such that each element appear only once.

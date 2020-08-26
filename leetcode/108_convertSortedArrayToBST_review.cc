@@ -1,9 +1,9 @@
 /*
  * @Description: 有序数组生成BST
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-08-21 09:44:24
  * @LastEditTime: 2020-08-21 11:27:50
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */
 #include<iostream>
 #include<stack>

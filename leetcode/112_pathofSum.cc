@@ -1,9 +1,9 @@
 /*
  * @Description: 
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-08-24 16:17:39
- * @LastEditTime: 2020-08-25 08:49:31
- * @LastEditors: chunbo liu
+ * @LastEditTime: 2020-08-25 10:04:19
+ * 
  */
 
 
@@ -51,9 +51,12 @@ public:
             return true;
 
         sum_current+=root->val;
+        
         bool left=hasPathSumCore(root->left,sum_current,sum,flag);
+        
         if(!left)
             sum_current=sum_current-(root->left?root->left->val:0);
+        
         bool right=hasPathSumCore(root->right,sum_current,sum,flag);
         if(!right)
             sum_current=sum_current-(root->right?root->right->val:0);

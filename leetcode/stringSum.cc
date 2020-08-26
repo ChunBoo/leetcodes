@@ -1,9 +1,9 @@
 /*
  * @Description: two integer strings added for sum
- * @Author: chunbo liu
+ * @Author: chunboo liu
  * @Date: 2020-08-21 14:01:17
  * @LastEditTime: 2020-08-21 16:51:30
- * @LastEditors: chunbo liu
+ * @LastEditors: chunboo liu
  */
 
 #include<iostream>
