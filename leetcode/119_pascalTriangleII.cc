@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: chunbo liu
  * @Date: 2020-08-25 13:11:38
- * @LastEditTime: 2020-08-25 13:48:11
+ * @LastEditTime: 2020-08-26 11:28:06
  * @LastEditors: chunbo liu
  */
 
@@ -69,16 +69,18 @@ public:
 
 class Solution2 {
 public:
-    vector<int> getRow(int rowIndex) {
+    vector<int> getRow(int rowIndex) 
+    {
         rowIndex++;
         vector<int> res(rowIndex);
         res[0]=1;
-        for(int i=0;i<rowIndex;i++){
+        for(int i=0;i<rowIndex;i++)
+        {
             res[i]=1;
-            for(int j=i-1;j>0;j--){
+            for(int j=i-1;j>0;j--)
                 res[j]=res[j]+res[j-1];
-            }
         }
+
         return res;
     }
 };
@@ -86,11 +88,26 @@ public:
 int main()
 {
     int rowIndex=3;
-    Solution test;
+    Solution2 test;
     vector<int> result=test.getRow(rowIndex);
+    // vector<int> ivec(rowIndex);
+    // ivec[0]=1;
+    // for(auto i:ivec)
+    //     cout<<i<<endl;
     cout<<" [";
-    for(auto i:result)
-        cout<<i<<" ,";
-    cout<<"]";
+    for(auto begin=result.begin();begin!=result.end();begin++)
+    {
+        if(begin!=result.end()-1)
+        {
+            cout<<*begin<<" ,";
+        }
+        else
+        {
+            cout<<*begin;
+        }
+        
+    }
+  
+    cout<<"]"<<endl;
     return 0;
 }
