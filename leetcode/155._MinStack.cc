@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: chunbo liu
  * @Date: 2020-09-03 13:56:28
- * @LastEditTime: 2020-09-03 13:57:10
+ * @LastEditTime: 2020-09-05 14:13:34
  * @LastEditors: chunbo liu
  */
 /*
@@ -36,27 +36,52 @@ minStack.getMin(); // return -2
 */
 
 
+#include<iostream>
+using namespace std;
+
+struct ListNode
+{
+    int val;
+    int min;
+    ListNode *next;
+    ListNode(int x,int _min):val(x),min(_min){}
+};
+
+
+
 class MinStack {
+    private:
+        ListNode *head;
 public:
     /** initialize your data structure here. */
-    MinStack() {
-        
+    MinStack():head(nullptr) {
+        head=new ListNode(0,INT16_MAX);
     }
     
     void push(int x) {
+        if(!head)
+        {
+            head=new ListNode(x,x);
+        }
+        else
+        {
+            ListNode *currentNode =new ListNode(x,min(x,head->min));
+            currentNode->next=head;
+            head=currentNode;
+        }
         
     }
     
     void pop() {
-        
+        head=head->next;
     }
     
     int top() {
-        
+        return head->val;
     }
     
     int getMin() {
-        
+        return head->min;
     }
 };
 
@@ -68,3 +93,20 @@ public:
  * int param_3 = obj->top();
  * int param_4 = obj->getMin();
  */
+
+
+int main()
+{
+    MinStack *obj= new MinStack();
+    obj->push(1);
+    obj->pop();
+    obj->push(3);
+    obj->push(4);
+    int param_3=obj->top();
+    int param_4=obj->getMin();
+    
+    cout<<"param_3= "<<param_3<<endl;
+    cout<<"parma_4= "<<param_4<<endl;
+
+    return 0;
+}
