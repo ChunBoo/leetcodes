@@ -2,7 +2,7 @@
  * @Description: 
  * @Author: chunbo liu
  * @Date: 2020-09-10 10:38:28
- * @LastEditTime: 2020-09-11 09:32:11
+ * @LastEditTime: 2020-09-14 10:24:12
  * @LastEditors: chunbo liu
  */
 
@@ -16,20 +16,58 @@ public:
     vector<int> majorityElement(vector<int>& nums) 
     {
         int ret=0,count=0;
-        for(auto i:nums)
+        for(auto num:nums)
         {
-            if(i==ret)
-                count++;
-            else 
+            if(count==0)
             {
-                count--;
-                if(count<0)
-                {
-                    ret=i;
-                    count=0;
-                }
+                ret=num;
+                count=1;
             }
+            else
+            {
+                if(ret!=num)
+                {
+                    count--;
+                }
+                else
+                {
+                    count++;
+                }
+                
+            }
+            
         }
+    
+        // for(auto i:nums)
+        // {
+        //     if(ret!=i)
+        //     {
+        //         count--;
+        //         if(count<0)
+        //         {
+        //             ret=i;
+        //             count=0;
+        //         }
+        //     }
+        //     else
+        //     {
+        //         count++;
+        //     }  
+        // }
+        // for(auto i:nums)
+        // {
+        //     if(i==ret)
+        //         count++;
+        //     else 
+        //     {
+        //         count--;
+        //         if(count<0)
+        //         {
+        //             ret=i;
+        //             count=0;
+        //         }
+        //     }
+        // }
         count=0;
         for(auto i:nums)
         {
@@ -43,7 +81,7 @@ public:
 
 int main()
 {
-    vector<int> nums{1,2,2,2,1,4,5,5,5,5};
+    vector<int> nums{1,2,2,2,1,4,5,2,5,5};
     Solution test;
     vector<int> result= test.majorityElement(nums);
     vector<int>::iterator iter=result.begin();
