@@ -12,18 +12,16 @@ struct  ListNode
 {
     int val;
     ListNode* next;
-    ListNode(int x):val(x){}
+    ListNode(int x):val(x),next(nullptr){}
 };
 
 ListNode* Reverse(ListNode* header)
 {
     if(!header||!header->next)
         return header;
-
     ListNode* current=header->next;
     ListNode* temp=nullptr;
     ListNode* previous=nullptr;
-
     while(current)
     {
         temp=current->next;
@@ -31,9 +29,8 @@ ListNode* Reverse(ListNode* header)
         previous=current;
         current=temp;
     }
-
-    header->next=previous;
-    return header->next;
+    // header->next=previous;
+    return previous;
 }
 
 int main()

@@ -68,9 +68,9 @@ class solution
 
 int main()
 {
-    int x=8;
+    int x=9;
     solution test;
-    int ret=test.sqrt1(x);
+    int ret=test.mySqrt(x);
     cout<<"result: "<<ret<<endl;
     return 0;
 }

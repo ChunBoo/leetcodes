@@ -43,7 +43,13 @@ void displayList(ListNode* header)
     ListNode* currentNode=header;
     while(currentNode)
     {
-        cout<<currentNode->val<<"->";
+        if(currentNode->next)
+            cout<<currentNode->val<<"->";
+        else
+        {
+            cout<<currentNode->val<<endl;
+        }
+        
         currentNode=currentNode->next;
     }
 }

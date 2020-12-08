@@ -41,7 +41,7 @@ int main()
 {
     vector<int> ivec{6,4,2,1,5,9,3,7,8};
     quickSort(0,8,ivec);
-    for(int i:ivec) cout<<i<<" "<<endl;
+    for(int i:ivec) cout<<i<<"--";
     return 0;
     
 }

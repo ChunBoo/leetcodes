@@ -22,7 +22,6 @@ class solution
             int tempValue=x;
             while(x)
             {
-                
                 convertedValue=convertedValue*10+x%10;
                 x/=10;
             }
@@ -33,7 +32,8 @@ class solution
 int main()
 {
     solution test;
-    int data=-121;
+
+    int data=121;
     bool result= test.isPalindrome(data);
     cout<<result<<endl;
     return 0;

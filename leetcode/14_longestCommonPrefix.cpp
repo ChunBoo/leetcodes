@@ -5,8 +5,6 @@
  * @LastEditTime: 2020-06-29 19:21:31
  * @LastEditors: chunbo liu
  */ 
-
-
 #include<iostream>
 #include<string>
 #include<vector>
@@ -36,17 +34,15 @@ class solution
                 }
                 if(isFound)
                     tempString+=currentChar;
-                
             }
             return tempString;
-
         }
 };
 
 int main()
 {
     solution test;
-    vector<string> allStrings={"aa","a"};
+    vector<string> allStrings={"aba","abc"};
     string result=test.longestCommonPrefix(allStrings);
     cout<<result<<endl;
     return 0;

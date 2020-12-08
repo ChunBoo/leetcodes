@@ -68,8 +68,8 @@ int lengthOfLastWord(string s){
 
 int main()
 {
-    Solution t;
-    string s="  helloa ";//"b   a    ";
+    Solution2 t;
+    string s="  helloa AAAAA  ";//"b   a    ";
     int cnt=t.lengthOfLastWord(s);
     cout<<"cnt="<<cnt<<endl;
 }
